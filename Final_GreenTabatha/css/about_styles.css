@@ -1,0 +1,76 @@
+.about-section h2, .about-section h3 {
+    color: #0056b3;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.5s ease-in-out;
+}
+
+.about-section h2:hover, .about-section h3:hover {
+    color: #004080;
+}
+
+.about-section p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-section p:hover {
+    transform: scale(1.05);
+}
+
+.about-section table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.about-section table:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.3); 
+}
+
+.about-section th, .about-section td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.about-section th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-section tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.about-section tr:hover {
+    background-color: #f1f1f1;
+}
+
+.about-section td a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.about-section td a:hover {
+    text-decoration: underline;
+    color: #004080; 
+}
+.company-details h3 {
+    margin-top: 2rem; 
+}
+
+.company-details ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.company-details li {
+    margin-bottom: 0.5rem;
+}

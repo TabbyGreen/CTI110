@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+header {
+    background: #0056b3;
+    color: #fff;
+    padding-top: 1.875rem;
+    min-height: 4.375rem;
+    border-bottom: 0.1875rem solid #0077cc;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin-left: 1.25rem;
+}
+
+header .active {
+    color: #e3e3e3;
+    font-weight: bold;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav {
+    float: right;
+    margin-top: 0.625rem;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #ffe600;
+    text-decoration: underline;
+}
+
+main .container {
+    padding: 1.25rem;
+}
+
+main img {
+    max-width: 100%;
+    margin-top: 1.25rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+main img:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.625rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0.625rem 0;
+}
+footer .github-link {
+    color: #ff4500;
+    transition: color 0.3s ease;
+}
+
+footer .github-link:hover {
+    color: #ff6347;
+}
+html {
+    scroll-behavior: smooth;
+}
